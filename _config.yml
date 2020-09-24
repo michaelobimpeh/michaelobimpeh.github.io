@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Michael Obimpeh"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/image2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "My focus as an emerging professional is to utilize my knowledge in biostatistics and data analysis in order to make a difference in the lives of people living with severe diseases. "
   location         : "Antwerpen, Belgium"
   email            :
@@ -284,3 +284,14 @@ defaults:
       comments: # true
       share: true
       related: true
+
+      # Defaults
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      
