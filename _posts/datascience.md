@@ -16,4 +16,4 @@ image: "/images/image3.jpg"
   {% for post in posts %}
     {% include archive-single.html %}
   {% endfor %}
-{% endfor %}
+{% endfor %} 
